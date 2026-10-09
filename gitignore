@@ -1,0 +1,27 @@
+# Build folders
+build/
+bin/
+out/
+
+# Compiled binaries
+*.exe
+*.dll
+*.obj
+*.o
+
+# VS Code
+.vscode/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# GLAD generated build files
+glad/build/
+
+# Temporary files
+*.log
+*.tmp
+*.cache
