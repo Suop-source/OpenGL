@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "day1.cpp",
+                "-Iexternal/glfw/include",
+                "-Lexternal/glfw/lib-mingw-w64",
+                "-lglfw3",
+                "-lgdi32",
+                "-luser32",
+                "-lkernel32",
+                "-lopengl32",
+                "-o",
+                "main.exe"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
